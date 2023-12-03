@@ -9,8 +9,8 @@ for language in *; do
     
     # Initializing process
     echo "$language: initializing process ..."
-    source_directory="/Volumes/Seagate/data/${language}/clips"
-    destination_directory="/Volumes/Seagate/data/${language}"
+    source_directory="~/data/${language}/clips"
+    destination_directory="~/data/${language}"
     files_per_subdirectory=1000
 
     # Check if the source directory exists
